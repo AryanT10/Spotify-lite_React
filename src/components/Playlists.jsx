@@ -12,7 +12,7 @@ export default function Playlists() {
 				headers: {
 					Authorization: "Bearer " + token,
 					"Content-Type": "application/json"
-				}
+				},
 			});
 			const { items } = response.data;
 			const playlists = items.map(({ name, id }) => {
