@@ -70,6 +70,12 @@ grid-template-rows:85vh 15vh;
 	height:100%;
 	width:100%;
 	overflow:auto;
+	&::-webkit-scrollbar{
+		width:0.7rem;
+		&-thumb{
+			background-color:rgba(255,255,255,0.6);
+		}
+	}
   }
 }
 
