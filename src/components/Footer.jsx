@@ -4,7 +4,7 @@ import CurrentTrack from './CurrentTrack';
 
 export default function Footer() {
 	return (
-		<Container><CurrentTrack /></Container>
+		<Container> <CurrentTrack /> </Container>
 	)
 }
 

@@ -31,19 +31,18 @@ export default function CurrentTrack() {
 
 	return (
 		<Container>
-			{currentlyPlaying && (
-				<div className="track">
-					<div className="track__image">
-						<img src={currentlyPlaying.image} alt="currentlyPlaying" />
+			{
+				currentlyPlaying && (
+					<div className="track">
+						<div className="track__image">
+							<img src={currentlyPlaying.image} alt="currentlyPlaying" />
+						</div>
+						<div className="track__info">
+							<h4>{currentlyPlaying.name}</h4><h6>{currentlyPlaying.artists.join(", ")}</h6>
+						</div>
 					</div>
-					<div className="track__info">
-						<h4 className="track__info__track__name">{currentlyPlaying.name}</h4>
-						<h6 className="track__info__track__artists">
-							{currentlyPlaying.artists.join(", ")}
-						</h6>
-					</div>
-				</div>
-			)}
+				)
+			}
 		</Container>
 	)
 }
@@ -61,7 +60,7 @@ const Container = styled.div`
 			color:white;
 		}
 		h6{
-			color:#b3b3b3;
+			color:#b3b3b3
 		}
 	}
 }
