@@ -132,10 +132,11 @@ export default function Body({headerBackground}) {
           </div>
         </div>
       </>
-    )}
+      )}
   </Container>
 );
 }
+
 
 const Container = styled.div`
 .playlist {
