@@ -33,9 +33,10 @@ A Spotify clone built using React and the Spotify Web API. This project aims to 
 
 3. edit anyway you want.
 
-4.Create a .env file in the root directory and add your Spotify API credentials:
+4.Create a `.env` file in the root directory and add your Spotify API credentials:
 
- .env >> REACT_APP_SPOTIFY_CLIENT_ID=your-client-id
- .env >> REACT_APP_SPOTIFY_REDIRECT_URI=http://localhost:3000/callback
+ `.env` >> REACT_APP_SPOTIFY_CLIENT_ID=your-client-id
+
+ `.env` >> REACT_APP_SPOTIFY_REDIRECT_URI=http://localhost:3000/callback
 
 5.Start the development server: `npm start`
